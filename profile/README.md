@@ -3,7 +3,7 @@
        align="right" width="64" height="64" />
 </h2>
 
-**Lighter** is a set of technologies applying code generation to access 
+[**Lighter**](https://lighter-swift.github.io) is a set of technologies applying code generation to access 
 [SQLite3](https://www.sqlite.org) databases from 
 [Swift](https://swift.org/), e.g. in iOS applications or on the server.
 Like [SwiftGen](https://github.com/SwiftGen/SwiftGen) but for SQLite3.
@@ -29,7 +29,7 @@ Don’t ship 3rd party libraries, directly generate the necessary code
 into your app.
 </details>
 
-Lighter is useful for two main scenarios:
+[Lighter](https://lighter-swift.github.io) is useful for two main scenarios:
 
 <details><summary>Shipping SQLite databases within your app (e.g. containing a product database).</summary>
 
