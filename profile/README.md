@@ -277,8 +277,6 @@ Interested? 👉 [Getting Started](https://lighter-swift.github.io/documentation
 
 #### Everyone loves Screenshots!
 
-### Screenshots
-
 <img width="1014" alt="Screenshot 2022-08-16 at 16 41 31" src="https://user-images.githubusercontent.com/7712892/184908144-22cf9a9a-7901-4815-9453-61d8602a093f.png">
 
 
