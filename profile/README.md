@@ -97,13 +97,13 @@ way):
 ```swift
 struct ContactsDB {
 
-  struct Person: Identifiable, Hashable {
+  struct Person: Identifiable, Hashable, Sendable {
     var id       : Int
     var name     : String
     var title    : String?
   }
 
-  struct Address: Identifiable, Hashable {
+  struct Address: Identifiable, Hashable, Sendable {
     var id       : Int
     var street   : String?
     var city     : String?
@@ -190,7 +190,7 @@ try await db.transaction { tx in
   try tx.delete(person)
   
   // Reinsert the same record
-  let newPerson = try tx.insert(person) // gets new ID!
+  let newPerson = try tx.insert(person) // receives new ID!
 }
 ```
 </details>
